@@ -16,7 +16,7 @@ def parsing():
         link = soup.findAll('a', class_='thread-link')
         for i in range(len(name)):
             print(name[i].text)
-            print(temp[i].text.strip())                 #modern problems require modern solutions
+            print(temp[i].text.strip())
             print(link[i].get('href') + "\n")
 
     finally:
